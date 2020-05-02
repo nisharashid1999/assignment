@@ -1,0 +1,563 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    
+    background-color:rgb(49, 109, 195);
+    height: 8vh;
+}
+.submit{
+    
+    float:right;
+   list-style: none;
+   display: inline-flex;
+   padding: 5px;
+   margin-right: 8%;
+   position: relative;
+   bottom: 10px;
+   
+}
+.icons{
+    display: inline-flex;
+    list-style: none;
+    padding: 5px;
+    margin-left: 5%;
+}
+.icons li{
+    width: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    position: relative;
+    bottom: 10px;
+
+}
+.submit li{
+   
+   padding: 2px;   
+}
+.submit li button{
+   padding: 4px 4px 4px 4px;
+   font-size: 11px;
+   color: rgb(66,121,0);
+}
+h4{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 22px;
+}
+.subhead{
+    background-color: #F7F8FA;
+    height: 12vh;
+    
+    width: 100%;
+
+    
+    
+}
+.saylanilogo{
+    position: relative;
+    right: 20px;
+}
+
+.subheadlist{
+    position: relative;
+    left: 500px;
+    list-style: none;
+    display: inline-flex;
+    bottom: 80px;
+    font-family: OpenSans;
+    font-size: 13px;
+    margin-top: 30px;
+    
+}
+.subheadlist li a{
+    text-decoration: none;
+    color: black;
+}
+.subheadlist li{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+.divsubhead .subheadlist :hover{
+    background-color: rgb(49, 109, 195);
+    color: white;
+    border-radius: 30px;
+}
+
+
+.fixed {
+    background-color:rgb(49, 109, 195);
+    color: white;
+    border-radius: 30px;
+}
+.divsubhead .subheadlist li:hover #sub-menu-1 ul li{
+    display: block;
+   
+}
+#sub-menu-1 ul li:hover .divsubhead .subheadlist li{
+    color: white;
+} 
+/* .sub-menu-2{
+    margin-left: 180px;
+    position: relative;
+    bottom: 360px;
+    
+}  */
+#sub-menu-1 ul li{
+    display: none;   
+}
+    
+
+
+
+
+#sub-menu-1 ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 0px;
+    list-style: none;
+    width: 200px;
+   
+    margin-right: 140px;
+
+}
+#sub-menu-1 ul li a{
+    color: rgb(102,102,102);
+    text-transform: capitalize;
+   
+}
+#sub-menu-1 ul :hover{
+    color: white;
+    transition: 0.8s;
+    border-radius: 0px;
+}
+.sub-menu-2{
+    display: none;
+
+}
+
+.hover-me:hover .sub-menu-2{
+    margin-left: 180px;
+    display: block;
+    position: relative;
+    bottom: 28px;
+    text-transform: capitalize;
+    font-size: 12px;
+    
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-1-pos{
+    position: relative;
+    right: 110px;
+    
+}
+.sub-menu-1-pos{
+   width: 10px;
+}
+
+
+
+
+
+
+
+ 
+
+ @font-face{
+     font-family: OpenSans;
+     src: url('images and fonts/OpenSans-Bold.ttf');
+ }
+
+.saylanilogo{
+    margin-left: 10%;
+}
+.bankimg{
+    z-index: -1;
+    position: relative;
+    bottom: 50px;
+}
+.line{
+    background-color: rgb(49, 109, 195);
+    height: 30px;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: white;
+  position: relative;
+  bottom: 40px;
+  font-family: OpenSans;
+  font-size: 13px;
+}
+.g{
+    color: green;
+}
+@font-face{
+    font-family: merriweather;
+    src: url('images and fonts/MerriweatherSans-Light.ttf');
+}
+.intro{
+    box-sizing: border-box;
+    color: rgb(49, 109, 195);
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.intro span{
+    color: rgb(66,121,0);
+}
+.slogo{
+    text-align: center;
+    margin-top: 20px;
+}
+@font-face{
+    font-family: Opensans-reg;
+    src: url('images and fonts/OpenSans-Regular.ttf');
+}
+.para{
+    text-align: justify;
+    font-family: Opensans-reg;
+    color: rgb(102,102,102);
+    font-size: 14px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 10px;
+    display: block;
+}
+.fline{
+    margin-bottom: 20px;
+}
+.saylanistats{
+    background-color: rgb(36, 79, 242);
+    margin-top: 10%;
+    height: 50vh;
+    
+       
+}
+.image{
+    display: inline-flex;
+    margin-left: 15%;
+    width: 7%;
+    margin-top: 7%;  
+  
+}
+.number{
+    display: inline-flex;
+    margin-left: 14%;
+    width: 7%;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: merriweather;
+    color: white;
+    font-weight: 500;
+}
+.alphabets{
+    display: inline-flex;
+    font-size: 9px;
+    font-family: merriweather;
+    color: white;
+    font-weight: 600;
+}
+.alphabets span{
+    font-family: merriweather;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color:rgb(0,255,0);
+}
+.alpha3{
+    position: relative;
+    left: 420px;
+}
+.alpha2{
+    position: relative;
+    left: 290px;
+}
+.alpha1{
+    position: relative;
+    left: 170px;
+}
+.alpha{
+    position: relative;
+    left: 110px;
+}
+.activities{
+    background-color: #F7F8FA;
+    height: 90vh;
+}
+
+.activities-head{
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(36, 79, 242);
+    font-family: serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 8%;
+}
+.activities-head span{
+    color: rgb(66,121,0);
+    font-size: 35px;
+}
+.activitiesimg{
+    
+    display: inline-flex;
+    box-sizing: border-box;
+    margin-left: 9%;
+    margin-top: 4%;
+    
+    
+}
+.imagerow1{
+    
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 3px 3px 15px grey;
+    color: rgb(49, 109, 195);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: serif;
+    
+
+         
+}
+.activitiesimg2{
+    
+    display: inline-flex;
+    box-sizing: border-box;
+    margin-left: 9%;
+    margin-top: 2%;
+    margin-bottom: 50%;
+    
+    
+}
+
+.imagerow2{
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 3px 3px 15px grey;
+    color: rgb(49, 109, 195);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: serif;
+    
+}
+@font-face{
+    font-family: merriweather-bold;
+    src: url('images and fonts/MerriweatherSans-Bold.ttf');
+}
+.mission{
+    display: flex;
+    color: rgb(49, 109, 195);
+    font-weight: 600;
+    font-size: 12px;
+    font-family: merriweather-bold;
+    margin-left: 120px;
+    margin-top: 80px;
+    
+}
+.mhead2{
+     position: relative;
+     left: 320px;
+     
+}
+
+.imagesmission{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 50px;   
+}
+.hepatitis{
+    display: flex;
+    
+    width: 320px;
+    height: 60px;
+    background-color: #F7F8FA;
+
+}
+.house{
+    
+    display: flex;
+    width: 320px;
+    height: 60px;
+    margin-left: 20px;
+    background-color: #F7F8FA;
+
+}
+    
+.thar{
+    background-color: #F7F8FA;
+    display: flex;
+    width: 320px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+.it{
+    background-color: #F7F8FA;
+    display: flex;
+    height: 60px;
+    width: 320px;
+    margin-top: 15px;
+    
+}
+.hepatitis h3{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: rgb(49, 109, 195);
+}
+.hepatitis img{
+    margin-top: 15px;
+    margin-left:15px;
+}
+.it img{
+    margin-top: 15px;
+    margin-left:15px;
+}
+.it h3{
+    color: rgb(49, 109, 195);
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.house img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.house h3{
+    margin-left: 20px;
+    margin-top: 17px;
+    color: rgb(49,109,195);
+}
+.thar img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.thar h3{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: rgb(49, 109, 195);
+}
+
+.courses-para{
+    
+    width: 230px;
+    margin-left: 100px;
+    font-family: Opensans-reg;
+    color: rgb(102,102,102);
+    font-size: 13.5px;
+}
+.courses-para p span{
+    color: rgb(36, 79, 242);
+}
+.gallery-head{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(49, 109, 195);
+    font-family: serif;
+}
+.gallery-head span{
+    color: rgb(66,121,0);
+    font-size: 33px;
+}
+.galleryimage{
+    margin-top: 30px;
+    margin-left: 10%;
+}    
+.last-head{
+    background-color: #25272E;
+    width: 100%;
+    height: 400px;
+    margin-top: 15%;
+}    
+.last-head-bold ul li{
+    display: inline-flex;
+    font-family: OpenSans;
+    color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-top: 50px;
+     
+}
+.last-head-bold ul{
+    margin-left: 300px;
+    
+}
+.last-head-bold ul li h2{
+    margin-left: 250px;
+}
+.connect-us li{
+    display: inline-flex;
+    list-style: none;
+    margin-top: 10px;
+    
+}  
+.connect-us .licons{
+    margin-left: 750px;
+} 
+.connect-us-head{
+    margin-left: 60px;
+}
+.connect-us li i{
+    margin-left: 20px;
+    
+}
+.move{
+    color: rgb(187,187,187);
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+.twonumbers{
+    list-style: none;
+    display: inline-flex;
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.twonumbers li p{
+    width: 200px;
+}
+.licons{
+    color:white;
+}
+.licons i{
+    background-color: rgb(36, 79, 242);
+    padding: 10px 12px 10px 10px;
+    border-radius: 100%;
+}
+.copyright{
+    background-color: rgb(36, 79, 242);
+    width: 100%;
+    height: 5vh;
+}
+.copyright p{
+    color: white;
+    margin-left: 60px;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+
+}
